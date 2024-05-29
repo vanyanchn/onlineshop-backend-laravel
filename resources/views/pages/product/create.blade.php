@@ -80,12 +80,13 @@
                                 <label class="form-label">Category</label>
                                 <select class="form-control selectric @error('category_id') is-invalid @enderror"
                                     name="category_id">
-                                    <option value="">-- Select Category --</option>
+                                    <option value="">Select Category</option>
                                     @foreach ($categories as $category)
                                         <option value="{{ $category->id }}"
-                                            {{ old('category_id') == $category->id ? 'selected' : '' }}>
+                                            {{ old('category_id') == $category->id ? 'selected' : ''}}>
                                             {{ $category->name }}</option>
                                     @endforeach
+
                                 </select>
                             </div>
 

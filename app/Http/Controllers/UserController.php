@@ -16,7 +16,7 @@ class UserController extends Controller
         $users = DB::table('users')
             ->when($request->input('name'), function ($query, $name) {
                 return $query->where('name', 'like', '%' . $name . '%');
-            })
+        })
             ->paginate(5);
         return view('pages.user.index', compact('users'));
     }
