@@ -20,7 +20,6 @@ class AuthController extends Controller
             'roles' => 'required',
         ]);
 
-
         //password encryption
         $validated['password'] = Hash::make($validated['password']);
 
