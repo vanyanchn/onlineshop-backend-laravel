@@ -11,7 +11,7 @@
     <div class="main-content">
         <section class="section">
             <div class="section-header">
-                <h1>Category</h1>
+                <h1>Users</h1>
                 <div class="section-header-button">
                     <a href="{{ route('category.create') }}" class="btn btn-primary">Add New</a>
                 </div>
@@ -73,8 +73,8 @@
                                                             Edit
                                                         </a>
 
-                                                        <form action="{{ route('category.destroy', $category->id) }}" method="POST"
-                                                            class="ml-2">
+                                                        <form action="{{ route('category.destroy', $category->id) }}"
+                                                            method="POST" class="ml-2">
                                                             <input type="hidden" name="_method" value="DELETE" />
                                                             <input type="hidden" name="_token"
                                                                 value="{{ csrf_token() }}" />
