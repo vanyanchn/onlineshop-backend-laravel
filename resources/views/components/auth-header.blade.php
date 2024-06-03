@@ -1,3 +1,6 @@
-<div class="simple-footer mt-5">
-    Copyright &copy; Stisla 2018
+<div class="login-brand">
+    <img src="{{ asset('img/stisla-fill.svg') }}"
+        alt="logo"
+        width="100"
+        class="shadow-light rounded-circle">
 </div>
