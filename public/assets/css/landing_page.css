@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+body {
+    font-family: "DM Sans", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+/* start section 1 */
+.section-1 {
+    height: 120vh;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-size: cover;
+}
+
+.section-1 .bg-section-1 {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 .bg-section-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.element-section-1 {
+    position: absolute;
+    top: -3vw;
+    left: -3vw;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+}
+
+.element-section-1 img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.element-section-1 .logo {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    padding-left: 30%;
+    padding-top: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.element-section-1 .logo img {
+    height: 150px;
+    width: 150px;
+}
+.element-section-1 .logo h1 {
+    font-size: 4.5rem;
+    color: white;
+    margin-left: 60px;
+}
+.element-section-1 .fill-element-section-1 {
+    position: absolute;
+    top: 25vw;
+    left: 7vw;
+    width: 75%;
+    z-index: 2;
+}
+.element-section-1 .fill-element-section-1 p {
+    color: white;
+    font-size: 1.2rem;
+}
+.element-section-1 .fill-element-section-1 .btn {
+    width: 65%;
+    text-align: center;
+    margin-top: 100px;
+}
+.element-section-1 .fill-element-section-1 button {
+    border: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #529562;
+    color: white;
+}
+/* end section 1 */
+/* media query section 1 */
+/* end media query section 1 */
+/* start section 2 */
+.section-2 {
+    height: 120vh;
+    margin-top: 20px;
+}
+.section-2 .tittle-fitur {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.section-2 .tittle-fitur h1 {
+    color: #19435a;
+    font-size: 2.5rem;
+}
+.section-2 .fill-section-fitur-up {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 50px;
+}
+.section-2 .fill-section-fitur-up .fitur {
+    width: fit-content;
+    height: 370px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    position: relative;
+}
+.section-2 .fill-section-fitur-up .fitur img {
+    margin: 5px 5px;
+}
+.section-2 .fill-section-fitur-up .fitur .tittle-fitur {
+    width: 60%; /* Set a specific width for the title */
+    margin: 0 auto;
+}
+.section-2 .fill-section-fitur-up .fitur .tittle-fitur h1 {
+    font-size: 1.6rem;
+    margin-top: 30px;
+    color: #004651;
+    font-weight: 400;
+    text-align: center;
+}
+.section-2 .fill-section-fitur-below {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+.section-2 .fill-section-fitur-below .fitur {
+    width: fit-content;
+    height: 370px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    position: relative;
+}
+.section-2 .fill-section-fitur-below .fitur img {
+    margin: 5px 5px;
+}
+.section-2 .fill-section-fitur-below .fitur .tittle-fitur {
+    width: 60%; /* Set a specific width for the title */
+    margin: 0 auto;
+}
+.section-2 .fill-section-fitur-below .fitur .tittle-fitur h1 {
+    font-size: 1.6rem;
+    margin-top: 30px;
+    color: #004651;
+    font-weight: 400;
+    text-align: center;
+}
+/* end section 2 */
+/* start section 3 */
+.section-3 {
+    height: 105vh;
+    margin-top: 160px;
+    background-color: #f2f2f2;
+}
+
+.section-3 .title-visi-misi {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+}
+.section-3 .title-visi-misi h1 {
+    color: #19435a;
+    font-size: 2.5rem;
+}
+.section-3 .fill-section-3 {
+    display: flex;
+    padding: 0 90px;
+}
+.section-3 .fill-section-3 .section-3-left {
+    flex-direction: column;
+    width: 55%;
+    margin: 90px 30px;
+    color: #004651;
+    font-weight: 500;
+}
+.section-3 .fill-section-3 .section-3-left .visi {
+    font-size: 1.4rem;
+}
+.section-3 .fill-section-3 .section-3-left .misi {
+    font-size: 1.3rem;
+}
+/* end section 3 */
+/* start section 4 */
+.section-4 {
+    background-color: #529562;
+    height: 85vh;
+}
+.section-4 .title-about-us {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+}
+.section-4 .title-about-us h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+.section-4 .fill-section-4 .descriprion {
+    width: 59%;
+    margin: 20px 200px 50px 150px;
+    color: #004651;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.section-4 .instagram {
+    width: fit-content;
+    margin-left: 80%;
+}
+.section-4 .instagram button {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 30px;
+}
+.section-4 .instagram i {
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+.section-4 .instagram h1 {
+    font-size: 0.8rem;
+}
